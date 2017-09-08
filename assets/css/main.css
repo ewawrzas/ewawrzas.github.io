@@ -55,6 +55,11 @@ i {
 }
 
 
+
+.about {
+	width: 75%;
+}
+
 .dev-icons {
 	display: flex;
 	flex-wrap: wrap;
@@ -3584,7 +3589,7 @@ i {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		max-width: 80em;
 	}
 
 		#cta .inner header {
