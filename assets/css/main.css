@@ -54,10 +54,19 @@ i {
 	/*margin: 20px;*/
 }
 
+.header-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
 
 
 .about {
-	width: 75%;
+	width: 40%;
+}
+
+.profile {
+	padding: 0px 20px 20px 20px;
 }
 
 .dev-icons {
@@ -2083,7 +2092,8 @@ i {
 			}
 
 			ul.actions.vertical li {
-				display: block;
+				display: flex;
+				/*width: 30%;*/
 				padding: 1.5em 0 0 0;
 			}
 
@@ -2971,6 +2981,8 @@ i {
 
 		.wrapper.style4 {
 			background-color: transparent;
+			display: block;
+			justify-content: space-around;
 		}
 
 		.wrapper.style5 {
