@@ -49,9 +49,17 @@
 	}
 
 i {
-	font-size: 100px;
+	font-size: 90px;
+	padding: 20px;
+	/*margin: 20px;*/
 }
 
+
+.dev-icons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 /* Box Model */
 
 	*, *:before, *:after {
