@@ -3352,6 +3352,7 @@ i {
 								height: 3.75em;
 								vertical-align: top;
 								width: 2em;
+								background-size: 25px;
 							}
 
 							@media screen and (max-width: 736px) {
