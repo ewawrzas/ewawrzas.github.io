@@ -62,7 +62,24 @@ i {
 	justify-content: space-around;
 }
 
+.projButtons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
 
+.projButtons a {
+	margin-right: 20px;
+}
+
+.email {
+	font-size: 14px;
+	font-weight: 600;
+	opacity: .5;
+	padding-bottom: 50px;
+	position: relative;
+	bottom: 25px;
+}
 
 .about {
 	display: flex;
@@ -2183,6 +2200,7 @@ i {
 		margin: 0 0 2em 0;
 	}
 
+
 /* Table */
 
 	.table-wrapper {
@@ -3755,8 +3773,8 @@ i {
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.8em;
+			color: rgba(255, 255, 255, 0.2);
+			font-size: 0.6em;
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
