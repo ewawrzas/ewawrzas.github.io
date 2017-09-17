@@ -70,6 +70,7 @@ i {
 
 .projButtons a {
 	margin-right: 20px;
+	margin-bottom: 50px;
 }
 
 .email {
@@ -87,6 +88,11 @@ i {
 	flex-direction: column;
 	width: 45%;
 	margin: 0;
+}
+
+#why {
+	display: flex;
+	flex-direction: column;
 }
 
 .profile {
@@ -1984,6 +1990,16 @@ i {
 		}
 
 /* Image */
+
+.image-border {
+	display: flex;
+	justify-content: center;
+	border-radius: 100%;
+}
+
+.image-profile {
+	max-width: 400px;
+}
 
 	.image {
 		border-radius: 3px;
