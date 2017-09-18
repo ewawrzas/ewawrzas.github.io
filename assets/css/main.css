@@ -73,6 +73,8 @@ i {
 	margin-bottom: 50px;
 }
 
+
+
 .email {
 	font-size: 14px;
 	font-weight: 600;
@@ -1505,7 +1507,6 @@ i {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 	}
