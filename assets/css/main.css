@@ -1990,6 +1990,10 @@ i {
 			color: #76ddff;
 		}
 
+video {
+	max-width: 600px;
+}
+
 /* Image */
 
 .image-border {
