@@ -2627,19 +2627,24 @@ video {
 		display: flex;
 	}
 
-		.spotlight .image {
+		.spotlight #headshot {
 			-moz-order: 1;
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 65%;
 		}
 
-			.spotlight .image img {
-				border-radius: 0;
-				width: 100%;
-			}
+		.spotlight #headshot img {
+			border-radius: 50%;
+			width: 100%;
+			margin: 3em auto;
+		}
+
+		.image img {
+			width: 100%;
+		}
 
 		.spotlight .content {
 			padding: 2em 4em 0.1em 4em ;
@@ -2700,10 +2705,6 @@ video {
 
 		@media screen and (max-width: 1280px) {
 
-			.spotlight .image {
-				width: 45%;
-			}
-
 			.spotlight .content {
 				width: 55%;
 			}
@@ -2718,10 +2719,6 @@ video {
 
 				.spotlight br {
 					display: none;
-				}
-
-				.spotlight .image {
-					width: 100%;
 				}
 
 				.spotlight .content {
@@ -2766,6 +2763,13 @@ video {
 					width: 100%;
 				}
 
+				.projButtons {
+					justify-content: center;
+				}
+
+				.image {
+					width: 100%;
+				}
 			}
 
 		.wrapper.alt {
